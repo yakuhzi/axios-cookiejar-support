@@ -22,7 +22,6 @@
     "noop.js"
   ],
   "scripts": {
-    "prebuild": "yarn clean",
     "build": "babel lib -x .mjs --out-dir lib",
     "clean": "rimraf lib/**/*.js",
     "test": "mocha test.spec.js --require intelli-espower-loader"

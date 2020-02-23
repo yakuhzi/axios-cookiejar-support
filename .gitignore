@@ -46,5 +46,3 @@ jspm_packages
 
 # Build
 .node-version
-
-lib/**/*.js
